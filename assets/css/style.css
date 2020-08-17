@@ -1,0 +1,114 @@
+
+body{
+    background-color: #323232;
+	font-family:raleway;
+}
+::-moz-selection{
+    background-color: #cfa144!important;
+    color: #ffffff!important;
+}
+::selection{
+    background-color: #cfa144!important;
+    color: #ffffff!important;
+}
+.banner{
+    background: #292929 url(../images/landing_2.html) center top no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner .content{
+    background-color: rgba(17,17,17,.95);
+    padding: 30px 0;
+    width: 100%;
+}
+.banner h1{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 2px;
+	    display: inline;
+    border: 1px solid #ffb400;
+    padding: 8px 20px;
+}
+.banner h2{
+	color: #ffffff;
+	font-weight: 400;
+}
+.banner img{
+    padding: 10px;
+    border: 2px solid #555555;
+    margin-bottom: 20px;
+}
+.demo .btn{
+    font-size: 12px;
+    line-height: 40px;
+    padding: 0;
+    letter-spacing:2px;
+    font-weight: 700;
+    background-color: #82b440;
+    color: #ffffff!important;
+    text-transform: uppercase;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    max-width: 120px;
+}
+.demo .btn:hover{
+    background-color: #5d9a0d!important;
+}
+.demo{
+    padding: 100px 0 50px;
+    background: #ffffff;
+}
+h2{
+    font-size: 16px;
+    line-height: 1.2;
+    color: #363636;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0 20px;
+    letter-spacing: 2px;
+}
+.heading{
+    font-size: 30px;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+.anchor {
+	margin-bottom: 40px;
+}
+.footer_copyright{
+    background-color: #222222;
+    padding: 20px;
+}
+.footer_copyright h5{
+    font-size: 12px;
+    line-height: 1;
+    color: #888888;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+.footer_copyright h6{
+    font-size: 11px;
+    line-height: 15px;
+    color: #888888;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.footer_copyright a, .footer_copyright .heart  {
+	color:#ffb400;
+}
+.bg_container {
+	padding: 4px;
+	border:1px solid #ddd;
+}
